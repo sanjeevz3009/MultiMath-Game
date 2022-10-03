@@ -3,7 +3,18 @@
     "compilerOptions": {
         "removeComments": true,
         // "outFile": "../js/app.js"
-        "module": "ES2022"
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "traceResolution": true,
+        // "baseUrl": "./modules"
+        // "paths": {
+        //     "my_lib": ["./customPath"]
+        // },
+        // "rootDirs": [
+        //     "modules",
+        //     "src",
+        //     "ts/modules"
+        // ]
     },
     // "include": [
     //     "./**/*" // Tell it to search recursively through directories
