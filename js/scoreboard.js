@@ -1,25 +1,18 @@
-// <reference path="result.ts" />
-
-import { Result } from './result';
- 
 export class Scoreboard {
-    private results: Result[] = [];
-
-    addResult(newResult: Result): void {
+    results = [];
+    addResult(newResult) {
         this.results.push(newResult);
     }
-
-    updateScoreboard(): void {
-        let output: string = '<h2>Scoreboard</h2>';
-
+    updateScoreboard() {
+        let output = '<h2>Scoreboard</h2>';
         for (let index = 0; index < this.results.length; index++) {
-            const result: Result = this.results[index];
+            const result = this.results[index];
             output += '<h4>';
             output += result.playerName + ':' + result.score + '/' + result.problemCount + ' for factor' + result.factor;
             output += '</h4>';
         }
-
-        const scoresElement: HTMLElement = document.getElementById('scores')!;
+        const scoresElement = document.getElementById('scores');
         scoresElement.innerHTML = output;
     }
 }
+//# sourceMappingURL=scoreboard.js.map

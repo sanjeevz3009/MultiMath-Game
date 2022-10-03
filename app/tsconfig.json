@@ -2,7 +2,8 @@
     "extends": "../tsconfig.base",
     "compilerOptions": {
         "removeComments": true,
-        "outFile": "../js/app.js"
+        // "outFile": "../js/app.js"
+        "module": "ES2022"
     },
     // "include": [
     //     "./**/*" // Tell it to search recursively through directories
