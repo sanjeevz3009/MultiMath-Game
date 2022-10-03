@@ -15,4 +15,4 @@ export class Scoreboard {
         scoresElement.innerHTML = output;
     }
 }
-//# sourceMappingURL=scoreboard.js.map
+//# sourceMappingURL=scoreBoard.js.map

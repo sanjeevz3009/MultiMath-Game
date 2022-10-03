@@ -1,5 +1,5 @@
 import { getValue } from './utility';
-import { Scoreboard as ResultPanel } from './scoreboard';
+import { Scoreboard as ResultPanel } from './scoreBoard';
 export class Game {
     player;
     problemCount;
