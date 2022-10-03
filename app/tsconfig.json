@@ -1,9 +1,13 @@
 {
     "extends": "../tsconfig.base",
     "compilerOptions": {
-        "removeComments": true
+        "removeComments": true,
+        "outFile": "../js/app.js"
     },
-    "include": [
-        "./**/*" // Tell it to search recursively through directories
+    // "include": [
+    //     "./**/*" // Tell it to search recursively through directories
+    // ]
+    "files": [
+        "./app.ts"
     ]
 }
