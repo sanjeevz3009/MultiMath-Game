@@ -1,5 +1,5 @@
 module.exports = {
-  entry: '/js/app.js',
+  entry: './js/app.js',
   // devtool: 'inline-source-map',
   // mode: 'development',
   // module: {
